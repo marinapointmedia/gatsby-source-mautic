@@ -11,10 +11,10 @@ import { colorsTheme } from './config.js'
 colors.setTheme(colorsTheme)
 
 exports.sourceNodes = async (
-  { boundActionCreators },
+  { actions },
   config
 ) => {
-  const { createNode } = boundActionCreators
+  const { createNode } = actions
   let options
   if (config.auth == 'oauth2') {
     if (config.publicKey && config.secretKey

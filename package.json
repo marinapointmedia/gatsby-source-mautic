@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-source-mautic",
-  "version": "0.7.5",
-  "description": "Source plugin to provide Mautic API endpoints in Gatsby",
-  "author": "sineau <sineaugh@gmail.com>",
+  "name": "@marinapointmediainc/gatsby-source-mautic",
+  "version": "0.8.0",
+  "description": "Source plugin to provide Mautic API endpoints in Gatsby Fork of gatsby-source-mautic",
+  "author": "marinapointmedia <contact@marinapointmedia.com>",
   "license": "GPL-3.0",
   "keywords": [
     "gatsby",
@@ -31,5 +31,14 @@
     "chokidar": "^1.7.0",
     "cross-env": "^5.0.5",
     "danger": "^3.4.7"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinapointmedia/gatsby-source-mautic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marinapointmedia/gatsby-source-mautic/issues"
+  },
+  "homepage": "https://github.com/marinapointmedia/gatsby-source-mautic#readme"
 }
